@@ -144,9 +144,8 @@ This project visualizes user listening behavior using real Spotify streaming dat
 <h2>🖼️ Dashboard Preview</h2>
 
 <!-- You can insert your dashboard screenshot here -->
-<p align="center">
-  <img src="https://github.com/Vinit-joshi2/Spotify-DashBoard/blob/main/Spotify%20DashBoard.pdf" alt="Spotify Da" width="800">
-</p>
+
+<a href = "https://github.com/Vinit-joshi2/Spotify-DashBoard/blob/main/Spotify%20DashBoard.pdf>Spotify DashBoard</a>
 
 <hr>
 
