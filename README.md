@@ -120,17 +120,68 @@ This project visualizes user listening behavior using real Spotify streaming dat
 </ul>
 
 <hr>
+<hr>
 
-<h2>🛠️ Tools Used</h2>
+<h2>🎵 Albums Analysis Overview</h2>
+<p>On the first page of the dashboard, the <em>Albums</em> container presents the following key metrics:</p>
 
 <ul>
-<li><strong>Power BI:</strong> Data visualization and dashboard creation</li>
-<li><strong>Microsoft Excel / CSV:</strong> Dataset storage and preparation</li>
-<li><strong>Spotify:</strong> Streaming data source</li>
+  <li>🎵 <strong>Total Albums Played Over Time</strong> – Track how album listening trends change over months and years.</li>
+  <li>📅 <strong>Number of Albums Listened by Year</strong> – Identify annual listening habits and volume (find the minimum and maximum albums in the view).</li>
+  <li>💥 <strong>Albums Played on Weekday &amp; Weekend</strong> – Compare listening patterns between weekdays and weekends.</li>
+  <li>🏆 <strong>Top 5 Albums</strong> – Highlight the most played albums based on listening frequency.</li>
+  <li>📊 <strong>Latest Year vs Previous Year Analysis</strong> – Compare album consumption between the latest and previous years, including:
+    <ul>
+      <li><strong>LY (Latest Year) vs PY (Previous Year) Trends</strong></li>
+      <li><strong>YoY (Year-over-Year) Growth Analysis</strong></li>
+    </ul>
+  </li>
 </ul>
 
 
 <hr>
+
+<h2>🎶 Artists Analysis Overview</h2>
+<p>On the second page of the dashboard, the <em>Artists</em> container presents the following key metrics:</p>
+
+<ul>
+  <li>🎵 <strong>Total Artists Played Over Time</strong> – Track how artist listening trends evolve across months and years.</li>
+  <li>📅 <strong>Number of Artists Listened by Year</strong> – Identify annual listening habits and artist diversity (find the minimum and maximum artists in the view).</li>
+  <li>💥 <strong>Artists Played on Weekday &amp; Weekend</strong> – Compare listening patterns between weekdays and weekends.</li>
+  <li>🏆 <strong>Top 5 Artists</strong> – Highlight the most played artists based on listening frequency.</li>
+  <li>📊 <strong>Latest Year vs Previous Year Analysis</strong> – Compare artist engagement between the latest and previous years, including:
+    <ul>
+      <li><strong>LY (Latest Year) vs PY (Previous Year) Trends</strong></li>
+      <li><strong>YoY (Year-over-Year) Growth Analysis</strong></li>
+    </ul>
+  </li>
+</ul>
+
+
+<hr>
+
+<h2>🎵 Tracks Analysis Overview</h2>
+<p>On the third page of the dashboard, the <em>Tracks</em> container presents the following key metrics:</p>
+
+<ul>
+  <li>🎵 <strong>Total Tracks Played Over Time</strong> – Monitor how track listening trends change across months and years.</li>
+  <li>📅 <strong>Number of Tracks Listened by Year</strong> – Identify annual listening habits and track diversity (find the minimum and maximum tracks in the view).</li>
+  <li>💥 <strong>Tracks Played on Weekday &amp; Weekend</strong> – Compare listening patterns between weekdays and weekends.</li>
+  <li>🏆 <strong>Top 5 Tracks</strong> – Highlight the most played tracks based on listening frequency.</li>
+  <li>📊 <strong>Latest Year vs Previous Year Analysis</strong> – Compare track engagement between the latest and previous years, including:
+    <ul>
+      <li><strong>LY (Latest Year) vs PY (Previous Year) Trends</strong></li>
+      <li><strong>YoY (Year-over-Year) Growth Analysis</strong></li>
+    </ul>
+  </li>
+</ul>
+
+
+
+<h3>📷 Dashboard Screenshot</h3>
+<p align="center">
+  <img src="[albums_dashboard.png](https://github.com/Vinit-joshi2/Spotify-DashBoard/blob/main/Image1.png)" alt="Albums Dashboard Screenshot" width="800">
+</p>
 
 
 
