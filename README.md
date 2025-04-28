@@ -180,9 +180,31 @@ This project visualizes user listening behavior using real Spotify streaming dat
 
 <h3>📷 Dashboard Screenshot</h3>
 <p align="center">
-  <img src="https://github.com/Vinit-joshi2/Spotify-DashBoard/blob/main/Image1.png" alt="Albums Dashboard Screenshot" width="800">
+  <img src="https://github.com/Vinit-joshi2/Spotify-DashBoard/blob/main/Image1.png" alt="Albums/Artist/Tracks Dashboard Screenshot" width="800">
 </p>
 
+
+<hr>
+
+<h2>🕒 Listening Hours & Engagement Analysis</h2>
+<p>On the fourth page of the dashboard, the <em>Listening Patterns</em> container presents the following key metrics:</p>
+
+<ul>
+  <li>🕒 <strong>Listening Hours Analysis</strong> – Identify peak listening times using a Heat Map that visualizes patterns across hours and days with color intensity.</li>
+  <li>📊 <strong>Average Listening Time (min) vs Track Frequency</strong> – Use a Scatter Plot with Quadrant Analysis to categorize tracks based on:
+    <ul>
+      <li><strong>High Frequency & High Listening Time</strong> – Most engaging tracks 🎯</li>
+      <li><strong>Low Frequency & High Listening Time</strong> – Niche but impactful tracks</li>
+      <li><strong>High Frequency & Low Listening Time</strong> – Short & frequently played tracks</li>
+      <li><strong>Low Frequency & Low Listening Time</strong> – Less popular tracks</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>📷 Dashboard Screenshot</h3>
+<p align="center">
+  <img src="https://github.com/Vinit-joshi2/Spotify-DashBoard/blob/main/Image2.png" alt="Listening Hours Dashboard Screenshot" width="800">
+</p>
 
 
 
