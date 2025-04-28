@@ -1,111 +1,133 @@
-### Spotify-DashBoard
+<h1>📑 Dataset Description</h1>
 
-📑 Dataset Description
-This project uses a Spotify dataset that captures user interactions, playback behavior, and engagement metrics. Below are the details of each column:
+<p>This project uses a Spotify dataset that captures user interactions, playback behavior, and engagement metrics. Below are the details of each column:</p>
 
-### 1. spotify_track_uri
-Description: A unique identifier assigned to each track in Spotify’s database.
+<hr>
 
-Format: spotify:track:<base-62 string> (e.g., spotify:track:3n3Ppam7vgaVa1iaRUc9Lp)
+<h2>1. <strong>spotify_track_uri</strong></h2>
+<ul>
+<li><strong>Description:</strong> A unique identifier assigned to each track in Spotify’s database.</li>
+<li><strong>Format:</strong> <code>spotify:track:&lt;base-62 string&gt;</code> (e.g., <code>spotify:track:3n3Ppam7vgaVa1iaRUc9Lp</code>)</li>
+<li><strong>Purpose:</strong> Helps link tracks to their metadata and allows for cross-referencing with Spotify’s catalog.</li>
+</ul>
 
-Purpose: Helps link tracks to their metadata and allows for cross-referencing with Spotify’s catalog.
+<hr>
 
-# 2. ts (Timestamp)
-Description: The exact time (in UTC) when the track stopped playing.
+<h2>2. <strong>ts (Timestamp)</strong></h2>
+<ul>
+<li><strong>Description:</strong> The exact time (in UTC) when the track stopped playing.</li>
+<li><strong>Format:</strong> ISO 8601 format (e.g., <code>2024-02-07T14:30:45Z</code>)</li>
+<li><strong>Purpose:</strong> Used for analyzing listening patterns, session durations, and track end times.</li>
+</ul>
 
-Format: ISO 8601 format (e.g., 2024-02-07T14:30:45Z)
+<hr>
 
-Purpose: Used for analyzing listening patterns, session durations, and track end times.
+<h2>3. <strong>platform</strong></h2>
+<ul>
+<li><strong>Description:</strong> The device or platform used to stream the track.</li>
+<li><strong>Possible Values:</strong>
+  <ul>
+    <li><code>desktop</code> (Windows/Mac app)</li>
+    <li><code>mobile</code> (iOS/Android app)</li>
+    <li><code>web</code> (Spotify Web Player)</li>
+    <li><code>smart_speaker</code> (Amazon Echo, Google Home, etc.)</li>
+  </ul>
+</li>
+<li><strong>Purpose:</strong> Helps understand where users are consuming music.</li>
+</ul>
 
-3. platform
-Description: The device or platform used to stream the track.
+<hr>
 
-Possible Values:
+<h2>4. <strong>ms_played</strong></h2>
+<ul>
+<li><strong>Description:</strong> The total number of milliseconds the track was played before stopping or skipping.</li>
+<li><strong>Format:</strong> Integer value (e.g., <code>215000</code> for 3 minutes 35 seconds)</li>
+<li><strong>Purpose:</strong> Useful for engagement analysis, identifying completed plays, and calculating revenue.</li>
+</ul>
 
-desktop (Windows/Mac app)
+<hr>
 
-mobile (iOS/Android app)
+<h2>5. <strong>track_name</strong></h2>
+<ul>
+<li><strong>Description:</strong> The title of the song being played.</li>
+<li><strong>Example:</strong> "Shape of You"</li>
+<li><strong>Purpose:</strong> Helps in analyzing the most played tracks.</li>
+</ul>
 
-web (Spotify Web Player)
+<hr>
 
-smart_speaker (Amazon Echo, Google Home, etc.)
+<h2>6. <strong>artist_name</strong></h2>
+<ul>
+<li><strong>Description:</strong> The name of the artist performing the song.</li>
+<li><strong>Example:</strong> "Ed Sheeran"</li>
+<li><strong>Purpose:</strong> Useful for ranking popular artists and identifying user preferences.</li>
+</ul>
 
-Purpose: Helps understand where users are consuming music.
+<hr>
 
-4. ms_played
-Description: The total number of milliseconds the track was played before stopping or skipping.
+<h2>7. <strong>album_name</strong></h2>
+<ul>
+<li><strong>Description:</strong> The name of the album the track belongs to.</li>
+<li><strong>Example:</strong> "÷ (Divide)"</li>
+<li><strong>Purpose:</strong> Helps analyze album popularity and user listening trends.</li>
+</ul>
 
-Format: Integer value (e.g., 215000 for 3 minutes 35 seconds)
+<hr>
 
-Purpose: Useful for engagement analysis, identifying completed plays, and calculating revenue.
+<h2>8. <strong>reason_start</strong></h2>
+<ul>
+<li><strong>Description:</strong> The reason why the track started playing.</li>
+<li><strong>Possible Values:</strong>
+  <ul>
+    <li><code>trackdone</code> (Previous track ended)</li>
+    <li><code>clickrow</code> (User manually selected the song)</li>
+    <li><code>backbtn</code> (User pressed back)</li>
+    <li><code>fwdbtn</code> (User pressed next)</li>
+    <li><code>playbtn</code> (User pressed play)</li>
+    <li><code>autoplay</code> (Spotify automatically selected the next track)</li>
+  </ul>
+</li>
+<li><strong>Purpose:</strong> Helps understand user behavior and track engagement patterns.</li>
+</ul>
 
-5. track_name
-Description: The title of the song being played.
+<hr>
 
-Example: "Shape of You"
+<h2>9. <strong>reason_end</strong></h2>
+<ul>
+<li><strong>Description:</strong> The reason why the track stopped playing.</li>
+<li><strong>Possible Values:</strong>
+  <ul>
+    <li><code>trackdone</code> (Track finished playing)</li>
+    <li><code>endplay</code> (User paused or stopped playback)</li>
+    <li><code>fwdbtn</code> (User skipped to the next track)</li>
+    <li><code>backbtn</code> (User went back to the previous track)</li>
+    <li><code>logout</code> (User logged out or session ended)</li>
+  </ul>
+</li>
+<li><strong>Purpose:</strong> Helps identify why users stop listening to tracks.</li>
+</ul>
 
-Purpose: Helps in analyzing the most played tracks.
+<hr>
 
-6. artist_name
-Description: The name of the artist performing the song.
+<h2>10. <strong>shuffle</strong></h2>
+<ul>
+<li><strong>Description:</strong> Indicates whether shuffle mode was enabled during playback.</li>
+<li><strong>Possible Values:</strong> <code>TRUE</code> (Shuffle mode ON) / <code>FALSE</code> (Shuffle mode OFF)</li>
+<li><strong>Purpose:</strong> Helps analyze how often users use shuffle mode during listening sessions.</li>
+</ul>
 
-Example: "Ed Sheeran"
+<hr>
 
-Purpose: Useful for ranking popular artists and identifying user preferences.
+<h2>11. <strong>skipped</strong></h2>
+<ul>
+<li><strong>Description:</strong> Indicates whether the user skipped the song before it finished.</li>
+<li><strong>Possible Values:</strong> <code>TRUE</code> (User skipped) / <code>FALSE</code> (User did not skip)</li>
+<li><strong>Purpose:</strong> Important for understanding user engagement, drop-off rates, and song popularity.</li>
+</ul>
 
-7. album_name
-Description: The name of the album the track belongs to.
+<hr>
 
-Example: "÷ (Divide)"
-
-Purpose: Helps analyze album popularity and user listening trends.
-
-8. reason_start
-Description: The reason why the track started playing.
-
-Possible Values:
-
-trackdone (Previous track ended)
-
-clickrow (User manually selected the song)
-
-backbtn (User pressed back)
-
-fwdbtn (User pressed next)
-
-playbtn (User pressed play)
-
-autoplay (Spotify automatically selected the next track)
-
-Purpose: Helps understand user behavior and track engagement patterns.
-
-9. reason_end
-Description: The reason why the track stopped playing.
-
-Possible Values:
-
-trackdone (Track finished playing)
-
-endplay (User paused or stopped playback)
-
-fwdbtn (User skipped to the next track)
-
-backbtn (User went back to the previous track)
-
-logout (User logged out or session ended)
-
-Purpose: Helps identify why users stop listening to tracks.
-
-10. shuffle
-Description: Indicates whether shuffle mode was enabled during playback.
-
-Possible Values: TRUE (Shuffle mode ON) / FALSE (Shuffle mode OFF)
-
-Purpose: Helps analyze how often users use shuffle mode during listening sessions.
-
-11. skipped
-Description: Indicates whether the user skipped the song before it finished.
-
-Possible Values: TRUE (User skipped) / FALSE (User did not skip)
-
-Purpose: Important for understanding user engagement, drop-off rates, and song popularity.
+<h1>🏷️ Tags</h1>
+<p>
+<code>#spotify</code> <code>#spotifydashboard</code> <code>#musicdata</code> <code>#dataanalysis</code> <code>#eda</code> <code>#powerbi</code> <code>#datavisualization</code> <code>#userbehavior</code> <code>#musicstreaming</code> <code>#dataanalytics</code>
+</p>
