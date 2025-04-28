@@ -1,28 +1,38 @@
-<h1>📑 Dataset Description</h1>
+<h1 align="center">🎶 Spotify Listening Behavior Dashboard</h1>
 
-<p>This project uses a Spotify dataset that captures user interactions, playback behavior, and engagement metrics. Below are the details of each column:</p>
+<p align="center">
+Analyze Spotify user streaming patterns, device usage, and engagement insights through an interactive Power BI dashboard.
+</p>
 
 <hr>
 
-<h2>1. <strong>spotify_track_uri</strong></h2>
+<h2>📌 Project Overview</h2>
+
+<p>
+This project visualizes user listening behavior using real Spotify streaming data. It aims to uncover insights about user engagement, device/platform usage, song popularity, and streaming habits. The dashboard is built in Power BI, offering an interactive experience for deeper exploration.
+</p>
+
+<hr>
+
+<h2>📚 Dataset Description</h2>
+
+<p>This project uses a Spotify dataset that captures user interactions, playback behavior, and engagement metrics. Below are the details of each column:</p>
+
+<h3>1. <strong>spotify_track_uri</strong></h3>
 <ul>
 <li><strong>Description:</strong> A unique identifier assigned to each track in Spotify’s database.</li>
 <li><strong>Format:</strong> <code>spotify:track:&lt;base-62 string&gt;</code> (e.g., <code>spotify:track:3n3Ppam7vgaVa1iaRUc9Lp</code>)</li>
 <li><strong>Purpose:</strong> Helps link tracks to their metadata and allows for cross-referencing with Spotify’s catalog.</li>
 </ul>
 
-<hr>
-
-<h2>2. <strong>ts (Timestamp)</strong></h2>
+<h3>2. <strong>ts (Timestamp)</strong></h3>
 <ul>
 <li><strong>Description:</strong> The exact time (in UTC) when the track stopped playing.</li>
 <li><strong>Format:</strong> ISO 8601 format (e.g., <code>2024-02-07T14:30:45Z</code>)</li>
 <li><strong>Purpose:</strong> Used for analyzing listening patterns, session durations, and track end times.</li>
 </ul>
 
-<hr>
-
-<h2>3. <strong>platform</strong></h2>
+<h3>3. <strong>platform</strong></h3>
 <ul>
 <li><strong>Description:</strong> The device or platform used to stream the track.</li>
 <li><strong>Possible Values:</strong>
@@ -36,45 +46,35 @@
 <li><strong>Purpose:</strong> Helps understand where users are consuming music.</li>
 </ul>
 
-<hr>
-
-<h2>4. <strong>ms_played</strong></h2>
+<h3>4. <strong>ms_played</strong></h3>
 <ul>
 <li><strong>Description:</strong> The total number of milliseconds the track was played before stopping or skipping.</li>
 <li><strong>Format:</strong> Integer value (e.g., <code>215000</code> for 3 minutes 35 seconds)</li>
 <li><strong>Purpose:</strong> Useful for engagement analysis, identifying completed plays, and calculating revenue.</li>
 </ul>
 
-<hr>
-
-<h2>5. <strong>track_name</strong></h2>
+<h3>5. <strong>track_name</strong></h3>
 <ul>
 <li><strong>Description:</strong> The title of the song being played.</li>
 <li><strong>Example:</strong> "Shape of You"</li>
 <li><strong>Purpose:</strong> Helps in analyzing the most played tracks.</li>
 </ul>
 
-<hr>
-
-<h2>6. <strong>artist_name</strong></h2>
+<h3>6. <strong>artist_name</strong></h3>
 <ul>
 <li><strong>Description:</strong> The name of the artist performing the song.</li>
 <li><strong>Example:</strong> "Ed Sheeran"</li>
 <li><strong>Purpose:</strong> Useful for ranking popular artists and identifying user preferences.</li>
 </ul>
 
-<hr>
-
-<h2>7. <strong>album_name</strong></h2>
+<h3>7. <strong>album_name</strong></h3>
 <ul>
 <li><strong>Description:</strong> The name of the album the track belongs to.</li>
 <li><strong>Example:</strong> "÷ (Divide)"</li>
 <li><strong>Purpose:</strong> Helps analyze album popularity and user listening trends.</li>
 </ul>
 
-<hr>
-
-<h2>8. <strong>reason_start</strong></h2>
+<h3>8. <strong>reason_start</strong></h3>
 <ul>
 <li><strong>Description:</strong> The reason why the track started playing.</li>
 <li><strong>Possible Values:</strong>
@@ -90,9 +90,7 @@
 <li><strong>Purpose:</strong> Helps understand user behavior and track engagement patterns.</li>
 </ul>
 
-<hr>
-
-<h2>9. <strong>reason_end</strong></h2>
+<h3>9. <strong>reason_end</strong></h3>
 <ul>
 <li><strong>Description:</strong> The reason why the track stopped playing.</li>
 <li><strong>Possible Values:</strong>
@@ -107,18 +105,14 @@
 <li><strong>Purpose:</strong> Helps identify why users stop listening to tracks.</li>
 </ul>
 
-<hr>
-
-<h2>10. <strong>shuffle</strong></h2>
+<h3>10. <strong>shuffle</strong></h3>
 <ul>
 <li><strong>Description:</strong> Indicates whether shuffle mode was enabled during playback.</li>
 <li><strong>Possible Values:</strong> <code>TRUE</code> (Shuffle mode ON) / <code>FALSE</code> (Shuffle mode OFF)</li>
 <li><strong>Purpose:</strong> Helps analyze how often users use shuffle mode during listening sessions.</li>
 </ul>
 
-<hr>
-
-<h2>11. <strong>skipped</strong></h2>
+<h3>11. <strong>skipped</strong></h3>
 <ul>
 <li><strong>Description:</strong> Indicates whether the user skipped the song before it finished.</li>
 <li><strong>Possible Values:</strong> <code>TRUE</code> (User skipped) / <code>FALSE</code> (User did not skip)</li>
@@ -127,7 +121,37 @@
 
 <hr>
 
-<h1>🏷️ Tags</h1>
+<h2>🛠️ Tools Used</h2>
+
+<ul>
+<li><strong>Power BI:</strong> Data visualization and dashboard creation</li>
+<li><strong>Microsoft Excel / CSV:</strong> Dataset storage and preparation</li>
+<li><strong>Spotify:</strong> Streaming data source</li>
+</ul>
+
+<hr>
+
+<h2>🚀 How to Use</h2>
+
+<ol>
+<li>Download or clone this repository.</li>
+<li>Open the Power BI file (.pbix) provided in the repository.</li>
+<li>Explore the various dashboard pages for detailed insights!</li>
+</ol>
+
+<hr>
+
+<h2>🖼️ Dashboard Preview</h2>
+
+<!-- You can insert your dashboard screenshot here -->
+<p align="center">
+  <img src="dashboard_preview.png" alt="Spotify Dashboard Preview" width="800">
+</p>
+
+<hr>
+
+<h2>🏷️ Tags</h2>
+
 <p>
 <code>#spotify</code> <code>#spotifydashboard</code> <code>#musicdata</code> <code>#dataanalysis</code> <code>#eda</code> <code>#powerbi</code> <code>#datavisualization</code> <code>#userbehavior</code> <code>#musicstreaming</code> <code>#dataanalytics</code>
 </p>
