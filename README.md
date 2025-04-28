@@ -133,39 +133,6 @@ This project visualizes user listening behavior using real Spotify streaming dat
 <hr>
 
 
-<hr>
-
-<h2>🎵 Albums Analysis Overview</h2>
-<p>On the first page of the dashboard, the <em>Albums</em> container presents the following key metrics:</p>
-
-<ul>
-  <li>🎵 <strong>Total Albums Played Over Time</strong> – Track how album listening trends change over months and years.</li>
-  <li>📅 <strong>Number of Albums Listened by Year</strong> – Identify annual listening habits and volume (find the minimum and maximum albums in the view).</li>
-  <li>💥 <strong>Albums Played on Weekday &amp; Weekend</strong> – Compare listening patterns between weekdays and weekends.</li>
-  <li>🏆 <strong>Top 5 Albums</strong> – Highlight the most played albums based on listening frequency.</li>
-  <li>📊 <strong>Latest Year vs Previous Year Analysis</strong> – Compare album consumption between the latest and previous years, including:
-    <ul>
-      <li><strong>LY (Latest Year) vs PY (Previous Year) Trends</strong></li>
-      <li><strong>YoY (Year-over-Year) Growth Analysis</strong></li>
-    </ul>
-  </li>
-</ul>
-
-<h3>📷 Dashboard Screenshot</h3>
-<p align="center">
-  <img src="albums_dashboard.png" alt="Albums Dashboard Screenshot" width="800">
-</p>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
