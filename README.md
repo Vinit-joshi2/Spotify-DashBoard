@@ -132,6 +132,43 @@ This project visualizes user listening behavior using real Spotify streaming dat
 
 <hr>
 
+
+<hr>
+
+<h2>🎵 Albums Analysis Overview</h2>
+<p>On the first page of the dashboard, the <em>Albums</em> container presents the following key metrics:</p>
+
+<ul>
+  <li>🎵 <strong>Total Albums Played Over Time</strong> – Track how album listening trends change over months and years.</li>
+  <li>📅 <strong>Number of Albums Listened by Year</strong> – Identify annual listening habits and volume (find the minimum and maximum albums in the view).</li>
+  <li>💥 <strong>Albums Played on Weekday &amp; Weekend</strong> – Compare listening patterns between weekdays and weekends.</li>
+  <li>🏆 <strong>Top 5 Albums</strong> – Highlight the most played albums based on listening frequency.</li>
+  <li>📊 <strong>Latest Year vs Previous Year Analysis</strong> – Compare album consumption between the latest and previous years, including:
+    <ul>
+      <li><strong>LY (Latest Year) vs PY (Previous Year) Trends</strong></li>
+      <li><strong>YoY (Year-over-Year) Growth Analysis</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h3>📷 Dashboard Screenshot</h3>
+<p align="center">
+  <img src="albums_dashboard.png" alt="Albums Dashboard Screenshot" width="800">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h2>🖼️ Dashboard Preview</h2>
 
 <!-- You can insert your dashboard screenshot here -->
@@ -139,37 +176,6 @@ This project visualizes user listening behavior using real Spotify streaming dat
 <a href = "https://github.com/Vinit-joshi2/Spotify-DashBoard/blob/main/Spotify%20DashBoard.pdf">Spotify DashBoard</a>
 
 <hr>
-
-
-<hr>
-
-<h2>📈 Data Analysis and Key Insights</h2>
-
-<p>Here are some important findings and metrics extracted from the Spotify listening dataset:</p>
-
-<ul>
-  <li><strong>Total Tracks Played:</strong> 5,423 tracks</li>
-  <li><strong>Total Unique Artists:</strong> 1,238 artists</li>
-  <li><strong>Most Played Track:</strong> "Blinding Lights" by The Weeknd</li>
-  <li><strong>Most Streamed Artist:</strong> Ed Sheeran</li>
-  <li><strong>Total Listening Time:</strong> 320 hours</li>
-  <li><strong>Top Streaming Platform:</strong> Mobile App (iOS/Android)</li>
-  <li><strong>Shuffle Usage:</strong> Enabled in 37% of sessions</li>
-  <li><strong>Most Common Reason for Start:</strong> Autoplay</li>
-  <li><strong>Most Common Reason for End:</strong> Track Finished</li>
-  <li><strong>Average Play Duration per Track:</strong> 2 minutes 45 seconds</li>
-  <li><strong>Percentage of Skipped Tracks:</strong> 22%</li>
-</ul>
-
-<p>These insights help understand user behavior, artist popularity, platform usage trends, and listening patterns on Spotify. 📊🎶</p>
-
-
-
-
-
-
-
-
 
 <h2>🏷️ Tags</h2>
 
