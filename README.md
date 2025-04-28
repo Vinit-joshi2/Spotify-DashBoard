@@ -180,7 +180,7 @@ This project visualizes user listening behavior using real Spotify streaming dat
 
 <h3>📷 Dashboard Screenshot</h3>
 <p align="center">
-  <img src="[albums_dashboard.png](https://github.com/Vinit-joshi2/Spotify-DashBoard/blob/main/Image1.png)" alt="Albums Dashboard Screenshot" width="800">
+  <img src="https://github.com/Vinit-joshi2/Spotify-DashBoard/blob/main/Image1.png" alt="Albums Dashboard Screenshot" width="800">
 </p>
 
 
