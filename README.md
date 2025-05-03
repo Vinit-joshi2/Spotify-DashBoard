@@ -6,6 +6,10 @@ Analyze Spotify user streaming patterns, device usage, and engagement insights t
 
 <hr>
 
+![Spotify Logo](https://github.com/Vinit-joshi2/SQL_Spotify_Analysis/blob/main/spotify-logo.jpg)
+
+
+
 <h2>📌 Project Overview</h2>
 
 <p>
